@@ -1,0 +1,23 @@
+{
+  "name": "mini-ledger-root",
+  "version": "1.0.0",
+  "private": true,
+  "description": "MiniLedger - Full-stack friend loan tracking application",
+  "scripts": {
+    "dev:backend": "npm --prefix apps/backend run dev",
+    "dev:mobile": "npm --prefix apps/mobile start",
+    "build:backend": "npm --prefix apps/backend run build",
+    "start:backend": "npm --prefix apps/backend start"
+  },
+  "keywords": [
+    "mini-ledger",
+    "express",
+    "react-native",
+    "expo",
+    "typescript",
+    "postgresql",
+    "supabase"
+  ],
+  "author": "",
+  "license": "MIT"
+}
